@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ToDoListTableViewController.h
 //  iTodoList
 //
 //  Created by Fabricio Nogueira dos Santos on 9/1/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ToDoListTableViewController : UITableViewController
 
+- (IBAction)unwindToList:(UIStoryboardSegue *)segue;
 
 @end
-
