@@ -17,6 +17,8 @@
 		61CCE0B31B962BA20053D5FB /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CCE0B11B962BA20053D5FB /* AddToDoItemViewController.m */; };
 		61CCE0BA1B9634B50053D5FB /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CCE0B91B9634B50053D5FB /* ToDoListTableViewController.m */; };
 		61CCE0BB1B9634B50053D5FB /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CCE0B91B9634B50053D5FB /* ToDoListTableViewController.m */; };
+		61CCE0BD1B9767330053D5FB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 61CCE0BC1B9767330053D5FB /* README.md */; };
+		61CCE0BE1B9767330053D5FB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 61CCE0BC1B9767330053D5FB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,7 @@
 		61CCE0B11B962BA20053D5FB /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemViewController.m; sourceTree = "<group>"; };
 		61CCE0B81B9634B50053D5FB /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
 		61CCE0B91B9634B50053D5FB /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
+		61CCE0BC1B9767330053D5FB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = iTodoList/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,7 @@
 		61CCE0761B95D97B0053D5FB = {
 			isa = PBXGroup;
 			children = (
+				61CCE0BC1B9767330053D5FB /* README.md */,
 				61CCE0811B95D97B0053D5FB /* iTodoList */,
 				61CCE09B1B95D97B0053D5FB /* iTodoListTests */,
 				61CCE0801B95D97B0053D5FB /* Products */,
@@ -228,6 +232,7 @@
 			files = (
 				61CCE0881B95D97B0053D5FB /* AppDelegate.m in Sources */,
 				61CCE0BA1B9634B50053D5FB /* ToDoListTableViewController.m in Sources */,
+				61CCE0BD1B9767330053D5FB /* README.md in Sources */,
 				61CCE0851B95D97B0053D5FB /* main.m in Sources */,
 				61CCE0B21B962BA20053D5FB /* AddToDoItemViewController.m in Sources */,
 			);
@@ -239,6 +244,7 @@
 			files = (
 				61CCE0BB1B9634B50053D5FB /* ToDoListTableViewController.m in Sources */,
 				61CCE09F1B95D97B0053D5FB /* iTodoListTests.m in Sources */,
+				61CCE0BE1B9767330053D5FB /* README.md in Sources */,
 				61CCE0B31B962BA20053D5FB /* AddToDoItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
