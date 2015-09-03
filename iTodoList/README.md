@@ -1,3 +1,3 @@
-# First OS X app
+# First iOS app
 
-learning how to develop to OS X with Obeject C.
+learning how to develop to iOS with Obeject C.
