@@ -7,15 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ToDoItem.h"
 
 @interface AddToDoItemViewController : UIViewController
 
-@property NSString *itemName;
-@property BOOL completed;
-@property (readonly) NSDate *creationDate;
-@property NSDate *completionDate;
-
-- (void)markAsCompleted:(BOOL) isCompleted;
-
+@property ToDoItem *toDoItem;
 
 @end
